@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/victim_numbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of Victims"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/input_vitim_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/victim_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Victim Injured Level"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/input_victim_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/victim_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Victim Id"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/input_victim_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/victim_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Victim Latitude"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+        android:id="@+id/input_victim_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/victim_longtitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Victim Longtitude"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/input_victim_longtitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+
+    <Button
+        android:id="@+id/victim_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add/Edit" />
+
+    <Button
+        android:id="@+id/victim_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/Show_database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Database" />
+
+</LinearLayout>
